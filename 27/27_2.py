@@ -17,6 +17,7 @@ for star in stars:
 
 #Функция поиска центроида
 def centroid(cluster):
+    res = 0
     sumres = 10**20
     for a in cluster:
         suma = 0
